@@ -18,6 +18,9 @@
 		EDF1552022FC7D5100E9731B /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF1551F22FC7D5100E9731B /* ViewController3.swift */; };
 		EDF1552222FC7D5D00E9731B /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF1552122FC7D5D00E9731B /* ViewController4.swift */; };
 		EDF1552A22FC839000E9731B /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDF1552922FC839000E9731B /* background.jpg */; };
+		EF90DA9823043ED5007AB0FB /* ChooseSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90DA9723043ED5007AB0FB /* ChooseSampleViewController.swift */; };
+		EF90DA9A23043F5E007AB0FB /* SampleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF90DA9923043F5E007AB0FB /* SampleStoryboard.storyboard */; };
+		EF90DA9C230441B3007AB0FB /* CurrencyConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90DA9B230441B3007AB0FB /* CurrencyConverterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		EDF1551F22FC7D5100E9731B /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		EDF1552122FC7D5D00E9731B /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		EDF1552922FC839000E9731B /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		EF90DA9723043ED5007AB0FB /* ChooseSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSampleViewController.swift; sourceTree = "<group>"; };
+		EF90DA9923043F5E007AB0FB /* SampleStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SampleStoryboard.storyboard; sourceTree = "<group>"; };
+		EF90DA9B230441B3007AB0FB /* CurrencyConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 		EDF154EA22FC684400E9731B /* AnyLVL */ = {
 			isa = PBXGroup;
 			children = (
+				EF90DA9623043E9F007AB0FB /* Sample Reuse Screens */,
 				EDF154EB22FC684400E9731B /* AppDelegate.swift */,
 				EDF154ED22FC684400E9731B /* ViewController.swift */,
 				EDF1551D22FC7CC400E9731B /* ViewController2.swift */,
@@ -135,6 +142,16 @@
 				EDF1550D22FC684700E9731B /* Info.plist */,
 			);
 			path = AnyLVLUITests;
+			sourceTree = "<group>";
+		};
+		EF90DA9623043E9F007AB0FB /* Sample Reuse Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EF90DA9723043ED5007AB0FB /* ChooseSampleViewController.swift */,
+				EF90DA9923043F5E007AB0FB /* SampleStoryboard.storyboard */,
+				EF90DA9B230441B3007AB0FB /* CurrencyConverterViewController.swift */,
+			);
+			path = "Sample Reuse Screens";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF154F622FC684600E9731B /* LaunchScreen.storyboard in Resources */,
+				EF90DA9A23043F5E007AB0FB /* SampleStoryboard.storyboard in Resources */,
 				EDF1552A22FC839000E9731B /* background.jpg in Resources */,
 				EDF154F322FC684600E9731B /* Assets.xcassets in Resources */,
 				EDF154F122FC684400E9731B /* Main.storyboard in Resources */,
@@ -271,9 +289,11 @@
 			files = (
 				EDF154EE22FC684400E9731B /* ViewController.swift in Sources */,
 				EDF154EC22FC684400E9731B /* AppDelegate.swift in Sources */,
+				EF90DA9823043ED5007AB0FB /* ChooseSampleViewController.swift in Sources */,
 				EDF1552022FC7D5100E9731B /* ViewController3.swift in Sources */,
 				EDF1551E22FC7CC400E9731B /* ViewController2.swift in Sources */,
 				EDF1552222FC7D5D00E9731B /* ViewController4.swift in Sources */,
+				EF90DA9C230441B3007AB0FB /* CurrencyConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,8 +468,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PJKB4UGXG6;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AnyLVL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +477,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Rom.AnyLVL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,8 +487,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PJKB4UGXG6;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AnyLVL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,6 +496,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Rom.AnyLVL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
